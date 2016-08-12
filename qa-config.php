@@ -36,7 +36,7 @@
 
 	define('QA_MYSQL_HOSTNAME', '127.0.0.1');
 	define('QA_MYSQL_USERNAME', 'root');
-	define('QA_MYSQL_PASSWORD', '80342jack');
+	define('QA_MYSQL_PASSWORD', 'root');
 	define('QA_MYSQL_DATABASE', 'QA');
 
 /*
