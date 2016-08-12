@@ -22,15 +22,9 @@
  
  9. Find the QA.sql database in QA folder,and Restore it by Data Import/Restore in MySQL Workbench
 
- 10. Open qa-config.php,insert the MySQL details at the top as following:
+ 10. Browse to [http://localhost/QA](http://localhost/QA)
  
-   define('QA_MYSQL_HOSTNAME', '127.0.0.1');  
-   define('QA_MYSQL_USERNAME', 'root');  
-   define('QA_MYSQL_PASSWORD', 'root');  
-   define('QA_MYSQL_DATABASE', 'QA');  
- 11. Browse to [http://localhost/QA](http://localhost/QA)
- 
- 12. Use the super administrator to log in:
+ 11. Use the super administrator to log in:
 
    Username:aliber  
    Password:aliber  
