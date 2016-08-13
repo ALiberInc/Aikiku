@@ -23,9 +23,4 @@
  9. Find the QA.sql in QA folder,and Restore it by Data Import/Restore in MySQL Workbench
 
  10. Browse to [http://localhost/QA](http://localhost/QA)
- 
- 11. Use the super administrator to log in:
 
-   Username:aliber  
-   Password:aliber  
-   Email address:jack80342@outlook.com
