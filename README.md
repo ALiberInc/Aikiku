@@ -10,9 +10,9 @@
  
  3. Find  System Preferences ➤ MySQL ➤ Start MySQL Server,and start it
  
- 4. open /etc/apache2/httpd.conf,find "# LoadModule php5_module libexec/apache2/libphp5".so,and delete "#".
+ 4. open /etc/apache2/httpd.conf,find "# LoadModule php5_module libexec/apache2/libphp5.so",and delete "#".
 
- 5. change "AllowOverride None" to "AllowOverride All" for directives may be placed in .htaccess files.
+ 5. change "AllowOverride None" to "AllowOverride All" for directives that may be placed in .htaccess files.
  
  6. Run command：```sudo apachectl restart```
  
@@ -20,7 +20,7 @@
  
  8. Download and install [MySQL Workbench 6.3.7 or later](http://dev.mysql.com/downloads/workbench/)
  
- 9. Find the QA.sql database in QA folder,and Restore it by Data Import/Restore in MySQL Workbench
+ 9. Find the QA.sql in QA folder,and Restore it by Data Import/Restore in MySQL Workbench
 
  10. Browse to [http://localhost/QA](http://localhost/QA)
  
