@@ -541,7 +541,8 @@ class qa_html_theme extends qa_html_theme_base
 		// floated right
 		$this->output(
 			'<div class="qa-attribution">',
-			'Snow Theme by <a href="http://www.q2amarket.com">Q2A Market</a>',
+		//	'Snow Theme by <a href="http://www.q2amarket.com">Q2A Market</a>',
+			'&copy; 2016 ALiber Inc. All rights reserved.',
 			'</div>'
 		);
 		parent::attribution();
